@@ -1,0 +1,45 @@
+body{
+    background-color: blue;
+}
+.container{
+    background-color: blue;
+    margin: auto;
+    height: 677px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copa-text{
+   margin-left: 70px;
+   font-size: 50px;
+   font-weight: 700;
+   color: whitesmoke;
+}
+main{
+    font-family: 'poppins', sans-serif;
+    margin: auto;
+    width: 1200px;
+    text-align: center;
+}
+.copa-img{
+    margin: 40px;
+}
+.copa-img img{
+    width: 560px;
+    height: 430px;
+}
+.copa-img:hover{
+    transform: translate(50px, 50px) scale(0.6)rotate(360deg);
+    transition: width 1s, height 2s,transform 4s;
+}
+.btn{
+    text-decoration: none;
+    background-color: crimson;
+    padding: 10px 30px;
+    color: whitesmoke;
+    font-weight: 500;
+    border: none;
+    font-size: 20px;
+    border-radius: 25px;
+
+}
